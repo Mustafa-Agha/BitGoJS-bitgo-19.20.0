@@ -1,0 +1,110 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "typeRoots": ["../../types", "./node_modules/@types", "../../node_modules/@types"]
+  },
+  "include": ["src/**/*", "resources/**/*"],
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "../sdk-coin-algo"
+    },
+    {
+      "path": "../sdk-coin-arbeth"
+    },
+    {
+      "path": "../sdk-coin-avaxc"
+    },
+    {
+      "path": "../sdk-coin-avaxp"
+    },
+    {
+      "path": "../sdk-coin-bera"
+    },
+    {
+      "path": "../sdk-coin-bld"
+    },
+    {
+      "path": "../sdk-coin-bsc"
+    },
+    {
+      "path": "../sdk-coin-celo"
+    },
+    {
+      "path": "../sdk-coin-core"
+    },
+    {
+      "path": "../sdk-coin-cspr"
+    },
+    {
+      "path": "../sdk-coin-etc"
+    },
+    {
+      "path": "../sdk-coin-eth"
+    },
+    {
+      "path": "../sdk-coin-eth2"
+    },
+    {
+      "path": "../sdk-coin-dot"
+    },
+    {
+      "path": "../sdk-coin-hash"
+    },
+    {
+      "path": "../sdk-coin-hbar"
+    },
+    {
+      "path": "../sdk-coin-injective"
+    },
+    {
+      "path": "../sdk-coin-islm"
+    },
+    {
+      "path": "../sdk-coin-near"
+    },
+    {
+      "path": "../sdk-coin-opeth"
+    },
+    {
+      "path": "../sdk-coin-osmo"
+    },
+    {
+      "path": "../sdk-coin-polygon"
+    },
+    {
+      "path": "../sdk-coin-rbtc"
+    },
+    {
+      "path": "../sdk-coin-sei"
+    },
+    {
+      "path": "../sdk-coin-sol"
+    },
+    {
+      "path": "../sdk-coin-stx"
+    },
+    {
+      "path": "../sdk-coin-tia"
+    },
+    {
+      "path": "../sdk-coin-trx"
+    },
+    {
+      "path": "../sdk-coin-xtz"
+    },
+    {
+      "path": "../sdk-coin-zeta"
+    },
+    {
+      "path": "../sdk-core"
+    },
+    {
+      "path": "../statics"
+    }
+  ]
+}
