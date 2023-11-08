@@ -4,9 +4,9 @@ import { ECPairAPI, ECPairFactory, ECPairInterface } from 'ecpair';
 import * as necc from '@noble/secp256k1';
 import { BIP32API, BIP32Factory, BIP32Interface } from 'bip32';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore base_crypto is exported as a subPath export, ignoring since compiler complains about importing like this // #9286F8 Fixing import in react-native
-import * as baseCrypto from './base_crypto';
-import { MuSig, MuSigFactory } from './musig';
+// @ts-ignore base_crypto is exported as a subPath export, ignoring since compiler complains about importing like this
+import * as baseCrypto from '@brandonblack/musig/lib/base_crypto';
+import { MuSig, MuSigFactory } from '@brandonblack/musig';
 
 necc.utils.sha256Sync = (...messages: Uint8Array[]): Uint8Array => {
   const sha256 = createHash('sha256');
